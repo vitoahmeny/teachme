@@ -1,17 +1,18 @@
 #!/usr/bin/bash
 
+# if passed a command
 if [ $1 ]
-  # if passed a command
   # check if it was passed a specific flag here
   then
     if [ -e ./cmds/$1 ]
       then ./cmds/$1
     else
-      echo 'Error: Command not found.'
+      echo -e 'Error:' \'$1\' 'command not found.'
       exit 1
     fi
   else
-    echo 'teachme command'
+    echo -e '\n\tteachme usage:\n'
+    echo -e '\tteachme <command>'
 fi
 
 
