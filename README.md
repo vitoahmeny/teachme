@@ -1,2 +1,2 @@
 # teachme
-A bash program providing more readable output compared to man pages.
+A bash program providing accessible output; a better man pages.
