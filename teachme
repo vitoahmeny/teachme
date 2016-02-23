@@ -3,7 +3,7 @@ cmdpath='/cmds/'
 cmdname="$1"
 
 # if we're using git commands
-if [ $1 = 'git' ]
+if [ "$1" = "git" ]
   then
     cmdpath='/cmds/git/'
     cmdname="$2"
@@ -21,8 +21,11 @@ if [ $cmdname ]
       exit 1
     fi
 else
+  echo -e '\n\tTEACHME PROGRAM'
+  echo -e '\n\tThe purpose of teachme is to provide beginner-friendly explanations\n\tto command-line and git topics and commands'
+  echo -e '\tSee which topics are available to learn by typing ./teachme --list'
   echo -e '\n\tteachme usage:\n'
-  echo -e '\tteachme <command>'
+  echo -e '\tteachme <topic>'
 fi
 
 
