@@ -1,1 +1,12 @@
 #!/usr/bin/bash
+
+  echo -e '\n\tTEACHME PROGRAM'
+  echo -e '\n\tThe purpose of teachme is to provide beginner-friendly explanations\n\tto command-line and git topics and commands'
+  echo -e '\tSee which topics are available to learn by typing ./teachme --list'
+  echo -e '\n\tteachme usage:\n'
+  echo -e '\tteachme <topic>'
+
+  echo -e "\n\tYou can list available commands with:\n"
+  echo -e "\tteachme --list\n"
+
+  exit 0

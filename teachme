@@ -2,6 +2,12 @@
 cmdpath='/cmds/'
 cmdname="$1"
 # flags are read first
+
+if [ "$1" = "--help" ]
+  then ./help
+  exit 0
+fi
+
 if [ "$1" = "--list" ]
   then ./list
   exit 0
@@ -26,11 +32,8 @@ if [ $cmdname ]
       exit 1
     fi
 else
-  echo -e '\n\tTEACHME PROGRAM'
-  echo -e '\n\tThe purpose of teachme is to provide beginner-friendly explanations\n\tto command-line and git topics and commands'
-  echo -e '\tSee which topics are available to learn by typing ./teachme --list'
-  echo -e '\n\tteachme usage:\n'
-  echo -e '\tteachme <topic>'
+  ./help
+  exit 0
 fi
 
 
