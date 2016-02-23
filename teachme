@@ -1,18 +1,28 @@
 #!/usr/bin/bash
+cmdpath='/cmds/'
+cmdname="$1"
+
+# if we're using git commands
+if [ $1 = 'git' ]
+  then
+    cmdpath='/cmds/git/'
+    cmdname="$2"
+fi
 
 # if passed a command
-if [ $1 ]
+if [ $cmdname ]
   # check if it was passed a specific flag here
   then
-    if [ -e ./cmds/$1 ]
-      then ./cmds/$1
+    if [ -e ".$cmdpath$cmdname" ]
+      then
+        ".$cmdpath$cmdname"
     else
-      echo -e 'Error:' \'$1\' 'command not found.'
+      echo -e 'Error:' \'$cmdname\' 'command not found.'
       exit 1
     fi
-  else
-    echo -e '\n\tteachme usage:\n'
-    echo -e '\tteachme <command>'
+else
+  echo -e '\n\tteachme usage:\n'
+  echo -e '\tteachme <command>'
 fi
 
 
