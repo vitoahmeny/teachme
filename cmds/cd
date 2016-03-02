@@ -1,0 +1,30 @@
+#!/usr/bin/bash
+
+# The command's name
+echo -e 'cd'
+
+# the command's description
+echo "description here"
+
+echo "------------"
+
+# the command's syntax
+echo "Syntax:"
+echo "cd [-L|-P] directory"
+echo -e "\t-L: the directory operand can be a symbolic link, if you tell cd to move to a directory that is acutally a symbolic link, it will move to the directory the symbolic link points to."
+echo -e "\t-P: Tell `cd` to ignore symbolic link or shortcut, only change to the specified directory if it actually exists as named. This is the opposite of the `-L` option.
+#   ...      etc
+
+echo "------------"
+
+# the command's usage examples
+# example 1
+echo "test"
+echo description here
+
+# example 2
+echo "test something"
+echo description here
+
+
+exit 0
