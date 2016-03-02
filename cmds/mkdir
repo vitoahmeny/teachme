@@ -20,12 +20,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "mkdir -m 777 mydir"
+echo "Creat a directory named mydir with all types of permissions enabled for all users."
 
 # example 2
-echo "test something"
-echo description here
+echo "mkdir -p sport/team_play/basketball"
+echo The -p (i.e., parents) option creates the specified intermediate directory if it doesn't exist.
 
 
 exit 0
