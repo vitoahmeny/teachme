@@ -1,0 +1,32 @@
+#!/usr/bin/bash
+echo "This is a test command."
+
+# The command's name
+echo -e 'test'
+
+# the command's description
+echo "description here"
+
+echo "------------"
+
+# the command's syntax
+echo "Syntax:"
+echo "test argument1 argument2"
+echo -e "\targument1: description of argument 1"
+echo -e "\targument2: description of argument 2"
+#   ...      etc
+
+echo "------------"
+
+# the command's usage examples
+# example 1
+echo “ls -l“
+echo “The -`l`- option tell the ls command to list the contents of the working directory in long format, following information are displayed:
+file type and thier permissions, file size number of files in the current directory, numbers of subdirectories in the directories listed, the size of the file and the last time the file's modified.”
+
+# example 2
+echo "ls -alS >> files_sort_by_zie.txt "
+echo “list all the files, including hidden files in long format, files are sorted by size, append the output to files_sort_by_size.txt”
+
+
+exit 0
