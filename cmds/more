@@ -1,0 +1,34 @@
+#!/usr/bin/bash
+echo "This is a test command."
+
+# The command's name
+echo -e 'more'
+
+# the command's description
+echo "description here"
+
+echo "------------"
+
+# the command's syntax
+echo "Syntax:"
+echo "more [option] [filename]"
+echo -e "\tmore -num 10 myfile.txt: Specify that 10 lines makes up a screenful, the line number argument must be integer."
+echo -e "\tmore -f myfile.txt: Cause more to count logical, rather than screen line of myfile.txt"
+echo -e "\tmore -P myfile.txt: Do not scroll. Instead, clear the whole screen and page through the content of myfile.txt"
+echo -e "\tmore -s myfile.txt: If there're multiple blank lines in the content, squeeze into one blank line."
+echo -e "\tmore -u myfile.txt: Do not display underlines."
+#   ...      etc
+
+echo "------------"
+
+# the command's usage examples
+# example 1
+echo "test"
+echo description here
+
+# example 2
+echo "test something"
+echo description here
+
+
+exit 0
