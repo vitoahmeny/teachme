@@ -11,9 +11,13 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "man [options] name..."
+echo "man ls"
+echo "Display the manual page for 'ls' command."
+echo "man -f ls" 
+echo "Display a short description from the command's man page, if available."
+echo "man -a ls"
+echo "Force man to display all manual pages instead of just the one it finds most suitable."
 #   ...      etc
 
 echo "------------"
