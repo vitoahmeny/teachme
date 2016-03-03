@@ -20,12 +20,8 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
-
-# example 2
-echo "test something"
-echo description here
+echo "exit"
+echo "Exit the shell."
 
 
 exit 0
