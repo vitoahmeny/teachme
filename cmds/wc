@@ -20,12 +20,13 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "ls -l | wc -lw"
+echo "Prints the line and word count of the standard output of ls -l."
 
 # example 2
-echo "test something"
-echo description here
+echo "wc myfile.txt"
+echo "Display information regarding number of lines, number of words 
+and number of characters of the file myfile.txt"
 
 
 exit 0
