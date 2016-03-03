@@ -1,11 +1,10 @@
 #!/usr/bin/bash
-echo "This is a test command."
 
 # The command's name
-echo -e 'test'
+echo -e 'touch'
 
 # the command's description
-echo "description here"
+echo "Touch changes file timestamps, updates the access and modification times of each files to current system time. If the specified file does not already exist, touch will create a new file with that filename."
 
 echo "------------"
 
