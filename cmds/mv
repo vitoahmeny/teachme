@@ -1,0 +1,35 @@
+#!/usr/bin/bash
+echo "This is a test command."
+
+# The command's name
+echo -e 'mv'
+
+# the command's description
+echo "description here"
+
+echo "------------"
+
+# the command's syntax
+echo "Syntax:"
+echo "mv [option]... source target""
+echo "mv [option]... source... directory"
+echo -e "\tmv -b: Make simple backups of source file."
+echo -e "\tmv --backup: Make backup of each existing destination file using the specified control method."
+echo -e "\tmv -f: Do not prompt before overwritting existing files."
+echo -e "\tmv -i: interactive, prompt for Yes or No before overwritting existing file, if the ansewr is negative, file's skipped."
+echo -e "\tmv -n: Do not overwrite if the file already exist."
+#   ...      etc
+
+echo "------------"
+
+# the command's usage examples
+# example 1
+echo "test"
+echo description here
+
+# example 2
+echo "test something"
+echo description here
+
+
+exit 0
