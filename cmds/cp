@@ -11,9 +11,12 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "cp [option]... source... directory"
+echo "cp [option]... source target"
+echo "cp -f: The f flag means force, removes the target file if it can not opened for write operations."
+echo "cp -H: Tell the cp command to follow symbolic links."
+echo "cp -i: Interactive, prompts for confirmation when overwritting a target file."
+echo "cp -r: copy directories recursively."
 #   ...      etc
 
 echo "------------"
