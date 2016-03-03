@@ -2,7 +2,7 @@
 echo "This is a test command."
 
 # The command's name
-echo -e 'test'
+echo -e 'rm'
 
 # the command's description
 echo "description here"
@@ -20,12 +20,15 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "rm -r mydir"
+echo "Instead using mkdir, when a directory is not empty, you need to use the recursive flag with rm to complete delete a directory."
 
 # example 2
-echo "test something"
-echo description here
+echo "rm *"
+echo "Remove all files in the working directory."
+
+echo "rm -i *"
+echo "prompt for comfirmation before removing every files in the working directory."
 
 
 exit 0
