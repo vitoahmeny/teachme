@@ -1,11 +1,10 @@
 #!/usr/bin/bash
-echo "This is a test command."
 
 # The command's name
-echo -e 'test'
+echo -e 'tar'
 
 # the command's description
-echo "description here"
+echo "'tar' stands for tape archive. It is used to collect, distribute and archive files, while preseving file system attributes such as owner user and group permissions, access and modification dates, and directory structures."
 
 echo "------------"
 
