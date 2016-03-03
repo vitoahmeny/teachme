@@ -11,9 +11,11 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "curl [options] url"
+echo "curl -o google.html http://www.google.com"
+echo "curl http://www.google.com and save the result of the command to a file named google.html."
+echo "curl -v http://www.google.com"
+echo "Enable the verbose mode and more details will be printed to the screen."
 #   ...      etc
 
 echo "------------"
