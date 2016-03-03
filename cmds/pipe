@@ -20,12 +20,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "ls -lS | wc -l"
+echo "List files in working directory in long format by file size, pipe the result of ls command to wc and print the line numbers to screen."
 
 # example 2
-echo "test something"
-echo description here
+echo "lsof | more"
+echo "list all optn files and pass the list to more to display it one screen at a time."
 
 
 exit 0
