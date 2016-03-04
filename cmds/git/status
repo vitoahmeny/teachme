@@ -11,9 +11,17 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "git test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "git status [options]..."
+echo "git status -s"
+echo "Give the output in short format."
+echo "git status -b"
+echo "Show the branch and tracking info even in short-format."
+echo "git status -long"
+echo "Gvie the output in long-format."
+echo "git status -v"
+echo "'v' stands for verbose, gives more detailed output."
+echo "git status --ignored"
+echo "Show ignored files as well."
 #   ...      etc
 
 echo "------------"
