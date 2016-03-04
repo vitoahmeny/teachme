@@ -20,12 +20,14 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
+echo "git diff"
+echo "Shows difference between commits, commit and working tree or index, etc"
 
 # example 2
-echo "test something"
-echo description here
+echo "git diff branch master"
+echo "Shows changes between the current branch and the master branch."
 
+echo "git diff --name-status"
+echo "Shows only name and nature of the change, but not actual diff output."
 
 exit 0
