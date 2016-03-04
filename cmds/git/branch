@@ -20,12 +20,13 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "git test"
-echo description here
+echo "git branch develop-branch"
+echo "git checkout develop-branch"
+echo "Creat a branch named develop-branch, and switch to develop-branch from current branch."
 
 # example 2
-echo "git test something"
-echo description here
+echo "git branch -d develop-branch"
+echo "delete branch develop-branch, provided that the branch is fully merged in its upstream branch, or in HEAD if no upstream was set."
 
 
 exit 0
