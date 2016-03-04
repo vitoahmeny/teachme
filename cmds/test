@@ -11,9 +11,10 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "sudo [option] command"
+echo "-l: list commands allowed and forbidden for the user on the current host."
+echo "-h: help option cause sudo to print a usage message and exit."
+echo "-k: the kill option sudo invalidates the user's timestamp."
 #   ...      etc
 
 echo "------------"
