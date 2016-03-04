@@ -20,12 +20,9 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
-
-# example 2
-echo "test something"
-echo description here
+echo "alias gcm="git checkout master""
+echo "alias gc="git checkout"
+echo "alias ll="ls -l""
 
 
 exit 0
