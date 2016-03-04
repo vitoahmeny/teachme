@@ -20,12 +20,8 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "test"
-echo description here
-
-# example 2
-echo "test something"
-echo description here
-
+echo "ssh"
+echo "ssh vito_fan@epacket.com"
+echo "epacket.com is the URL you want to connect to, vito_fan is the username, before you're connected to the server, the password is required to be entered and authenticated."
 
 exit 0
