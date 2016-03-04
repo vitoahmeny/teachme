@@ -1,11 +1,11 @@
 #!/usr/bin/bash
-echo "This is a test command."
+echo "This is a chmod command."
 
 # The command's name
-echo -e 'test'
+echo -e 'chmod'
 
 # the command's description
-echo "description here"
+echo "The chmod utility changes file mode, grant or deny write, read, execute permissions to users, groups and others."
 
 echo "------------"
 
