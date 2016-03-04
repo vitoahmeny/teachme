@@ -1,11 +1,12 @@
 #!/usr/bin/bash
-echo "This is a git test command."
+echo "This is a git commit command."
 
 # The command's name
-echo -e 'git test'
+echo -e 'git commit'
 
 # the command's description
-echo "description here"
+echo "Stores the current contents of the index in a new commit along with a commit message describing the changes made.
+ehco "A commit is a snapshot of the current state of the repository, if you make a commit and then find a mistake in it, you may retrieve the commit with git reset."
 
 echo "------------"
 
