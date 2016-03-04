@@ -20,12 +20,12 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "git test"
-echo description here
+echo "git config --unset diff.renames"
+echo "Delete the entry for renames from config."
 
 # example 2
-echo "git test something"
-echo description here
+echo "git config core.filemode true"
+echo "Set the file mode to true."
 
 
 exit 0
