@@ -1,11 +1,11 @@
 #!/usr/bin/bash
-echo "This is a test command."
+echo "This is a for command."
 
 # The command's name
-echo -e 'test'
+echo -e 'for'
 
 # the command's description
-echo "description here"
+echo "For loops allow you to iterate through items in an array or other list one at a time until you complete the list. As you move from one item to the next in the list, you can take action on the item."
 
 echo "------------"
 
