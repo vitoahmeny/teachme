@@ -11,9 +11,11 @@ echo "------------"
 
 # the command's syntax
 echo "Syntax:"
-echo "git test argument1 argument2"
-echo -e "\targument1: description of argument 1"
-echo -e "\targument2: description of argument 2"
+echo "git rm [options] <file>..."
+echo "git rm options"
+echo -e "\t-f, --force, override the current up-to-date check."
+echo -e "\t-r, Recursive deletion when a directory is given."
+echo -e "\t-n, --dry-run, Don't actually remove any file(s). Instead, just show if they exist in the index and would otherwise be removed by the command.
 #   ...      etc
 
 echo "------------"
