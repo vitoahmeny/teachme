@@ -20,12 +20,10 @@ echo "------------"
 
 # the command's usage examples
 # example 1
-echo "git test"
-echo description here
-
-# example 2
-echo "git test something"
-echo description here
-
+echo "cd /path/to/my/repo"
+echo "git init"
+echo "git add -A"
+echo "git commit"
+echo "Creat a /path/to/my/repo/.git directory, add all existing files to the staging area, the first commit in this repo's hitory record its initial state."
 
 exit 0
