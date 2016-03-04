@@ -1,11 +1,11 @@
 #!/usr/bin/bash
-echo "This is a git test command."
+echo "This is a git rebase command."
 
 # The command's name
-echo -e 'git test'
+echo -e 'git rebase'
 
 # the command's description
-echo "description here"
+echo "The rebase command take all the changes that were commited on one branch and replay them on another one."
 
 echo "------------"
 
