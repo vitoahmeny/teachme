@@ -1,11 +1,11 @@
 #!/usr/bin/bash
-echo "This is a git test command."
+echo "This is a git merge command."
 
 # The command's name
-echo -e 'git test'
+echo -e 'git merge'
 
 # the command's description
-echo "description here"
+echo "Join two or more development history together, it can be used to incorporates changes from the named commits,changes from another repository or branch into the current branch."
 
 echo "------------"
 
